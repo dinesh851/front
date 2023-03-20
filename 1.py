@@ -42,7 +42,7 @@ def generate_fake_commits(commits_per_week, start_date, end_date):
 
 if __name__ == "__main__":
     commits_per_week = 0.75  # 3 or 4 times a week on average
-    start_date = datetime(2023, 3, 1)
+    start_date = datetime(2023, 3, 17)
     end_date = datetime(2023, 5, 31)
 
     generate_fake_commits(commits_per_week, start_date, end_date)
