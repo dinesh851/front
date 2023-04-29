@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(to bottom, #343434, #343434);
+  /* overflow: hidden; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-div {
+  background-color:#242424; /* set background color */
+  padding: 10px; /* add some padding to the div */
+  margin: 4px 70px;
+  border-collapse: collapse;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.dropdown-div {
+  background-color:#242424; /* set background color */
+  padding: 10px; /* add some padding to the div */
+  margin: 20px 70px;
+  border-radius: 20px;
+}
+.table-div {
+  background-color:#242424; /* set background color */
+  padding: 10px; /* add some padding to the div */
+  margin: 5px 70px;
+  overflow-y: scroll;
+  height: 100px;
+  
+}
+select {
+    
+  font-size: 12px;
+  padding: 8px 8px;
+  border: 1px solid #3a0303;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  background-color: #797979;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  margin: 4px 20px; 
   }
+ 
+button {
+  background-color: #0462e7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50px;
+  cursor: pointer;
+  border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+label{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+table {
+  border: none;
+   
+  text-align: left;
+  background-color:#242424; /* set background color */
+  color: white;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th, td {
+  padding: 10px; border: none;
+  border-bottom: 1px solid rgba(69, 62, 62, 0.567);
+}
+
+th {
+  background-color:#242424; /* set background color */
+  border-bottom: 1px solid rgba(69, 62, 62, 0.567);
+  
+}
+ 
+ 
+ 
+tbody tr:hover {
+  background-color: #000000;
+}
+
+
+button:hover {
+  background-color: #3305ca;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+button:active {
+  background-color: #032ca7;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transform: translateY(2px);
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 70px;
+  color: #d17e7e;
+}
+label{
+  font-size: 16px;
+  font-weight: bold;
+  color: #d17e7e;
 }
